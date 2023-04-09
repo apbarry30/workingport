@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38b14b10-df46-438a-a5ac-09077e953ac8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/1doornorth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/aletto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/asembia-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/asembia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/bight.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/crypto-famous.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/e2g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/gulfstream.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/hue-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/ivmenow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/klover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/meijer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/play2pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/urban-solar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/waw-web-gl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/wl-homes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salimov/public/assets/portfolio/yourchange.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salimov/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/salimov/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salimov/src/SalimovHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/salimov/src/SalimovHead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salimov/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/salimov/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salimov/src/components/sections/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/salimov/src/components/sections/Portfolio.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NvZvcTTF8uuCHqXJB2bWYZGdoM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/amandabarry/Documents/amanda-sites/portfolio-remake/salimov/public/assets/portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/salimov/public/assets/portfolio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/salimov/public/assets/portfolio" />
+      <recent name="$PROJECT_DIR$/salimov/public/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38b14b10-df46-438a-a5ac-09077e953ac8" name="Changes" comment="" />
+      <created>1680546747406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680546747406</updated>
+      <workItem from="1680546749067" duration="7841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
