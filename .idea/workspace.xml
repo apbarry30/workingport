@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38b14b10-df46-438a-a5ac-09077e953ac8" name="Changes" comment="working with the others">
-      <change afterPath="$PROJECT_DIR$/public/assets/portfolio/arden.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/portfolio/bensoffer.png" afterDir="false" />
+    <list default="true" id="38b14b10-df46-438a-a5ac-09077e953ac8" name="Changes" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SalimovHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalimovHead.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switcher.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sliderProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliderProps.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +97,17 @@
       <workItem from="1722145815506" duration="948000" />
       <workItem from="1722147322595" duration="7831000" />
       <workItem from="1731010606259" duration="569000" />
-      <workItem from="1731549264045" duration="1497000" />
+      <workItem from="1731549264045" duration="2676000" />
     </task>
+    <task id="LOCAL-00001" summary="updates">
+      <option name="closed" value="true" />
+      <created>1731550837263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731550837263</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working" />
     <MESSAGE value="working with the others" />
-    <option name="LAST_COMMIT_MESSAGE" value="working with the others" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

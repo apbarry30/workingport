@@ -1,0 +1,94 @@
+Index: src/SalimovHead.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Head from \"next/head\";\r\nconst SalimovHead = () => {\r\n  return (\r\n    <Head>\r\n      <title>Amanda Barry - Portfolio</title>\r\n      <meta charSet=\"utf-8\" />\r\n      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n      {/* Template Google Fonts */}\r\n      <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n      <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossOrigin=\"\" />\r\n      <link\r\n        href=\"https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap\"\r\n        rel=\"stylesheet\"\r\n      />\r\n      {/* Template CSS Files */}\r\n      <link rel=\"stylesheet\" href=\"css/devicon.min.css\" />\r\n      <link rel=\"stylesheet\" href=\"css/all.min.css\" />\r\n      <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\" />\r\n      <link rel=\"stylesheet\" href=\"css/swiper-bundle.min.css\" />\r\n      <link rel=\"stylesheet\" href=\"css/animate.min.css\" />\r\n      <link rel=\"stylesheet\" href=\"css/jquery.mCustomScrollbar.min.css\" />\r\n      <link rel=\"stylesheet\" href=\"css/style.css\" />\r\n      {/* CSS Skin File */}\r\n      {/* <link rel=\"stylesheet\" href=\"css/skins/yellow.css\" /> */}\r\n      {/* Live Style Switcher - demo only */}\r\n\r\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"css/styleswitcher.css\" />\r\n    </Head>\r\n  );\r\n};\r\nexport default SalimovHead;\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SalimovHead.js b/src/SalimovHead.js
+--- a/src/SalimovHead.js	(revision f94716d42e91a043093831268253ab3aad516df5)
++++ b/src/SalimovHead.js	(date 1722149495382)
+@@ -6,25 +6,24 @@
+       <meta charSet="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       {/* Template Google Fonts */}
+-      <link rel="preconnect" href="https://fonts.googleapis.com" />
+-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+-      <link
+-        href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+-        rel="stylesheet"
+-      />
++      {/*<link rel="preconnect" href="https://fonts.googleapis.com" />*/}
++      {/*<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />*/}
++      {/*<link*/}
++      {/*  href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"*/}
++      {/*  rel="stylesheet"*/}
++      {/*/>*/}
+       {/* Template CSS Files */}
+-      <link rel="stylesheet" href="css/devicon.min.css" />
+-      <link rel="stylesheet" href="css/all.min.css" />
+-      <link rel="stylesheet" href="css/bootstrap.min.css" />
+-      <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+-      <link rel="stylesheet" href="css/animate.min.css" />
+-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+-      <link rel="stylesheet" href="css/style.css" />
++      {/*<link rel="stylesheet" href="css/devicon.min.css" />*/}
++      {/*<link rel="stylesheet" href="css/all.min.css" />*/}
++      {/*<link rel="stylesheet" href="css/bootstrap.min.css" />*/}
++      {/*<link rel="stylesheet" href="css/swiper-bundle.min.css" />*/}
++      {/*<link rel="stylesheet" href="css/animate.min.css" />*/}
++      {/*<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />*/}
++      {/*<link rel="stylesheet" href="css/style.css" />*/}
+       {/* CSS Skin File */}
+       {/* <link rel="stylesheet" href="css/skins/yellow.css" /> */}
+       {/* Live Style Switcher - demo only */}
+-
+-      <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
++      {/*<link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />*/}
+     </Head>
+   );
+ };
+Index: pages/_app.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import Preloader from \"@/src/components/Preloader\";\r\nimport Switcher from \"@/src/components/Switcher\";\r\nimport SalimovHead from \"@/src/SalimovHead\";\r\nimport \"@/styles/globals.css\";\r\nimport { Fragment } from \"react\";\r\n\r\nconst App = ({ Component, pageProps }) => {\r\n  return (\r\n    <Fragment>\r\n      <SalimovHead />\r\n      <Switcher />\r\n      <Preloader />\r\n      <Component {...pageProps} />\r\n    </Fragment>\r\n  );\r\n};\r\nexport default App;\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pages/_app.js b/pages/_app.js
+--- a/pages/_app.js	(revision f94716d42e91a043093831268253ab3aad516df5)
++++ b/pages/_app.js	(date 1722149041966)
+@@ -1,6 +1,17 @@
+ import Preloader from "@/src/components/Preloader";
+ import Switcher from "@/src/components/Switcher";
+ import SalimovHead from "@/src/SalimovHead";
++
++import "@/styles/globals.css";
++import "public/css/devicon.min.css";
++import "public/css/all.min.css";
++import "public/css/bootstrap.min.css";
++import "public/css/swiper-bundle.min.css";
++import "public/css/animate.min.css";
++import "public/css/jquery.mCustomScrollbar.min.css";
++import "public/css/style.css";
++import "public/css/styleswitcher.css";
++
+ import "@/styles/globals.css";
+ import { Fragment } from "react";
+ 
+Index: pages/_document.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { Html, Head, Main, NextScript } from 'next/document'\r\n\r\nexport default function Document() {\r\n  return (\r\n    <Html lang=\"en\">\r\n      <Head />\r\n      <body>\r\n        <Main />\r\n        <NextScript />\r\n      </body>\r\n    </Html>\r\n  )\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pages/_document.js b/pages/_document.js
+--- a/pages/_document.js	(revision f94716d42e91a043093831268253ab3aad516df5)
++++ b/pages/_document.js	(date 1722149085793)
+@@ -11,3 +11,5 @@
+     </Html>
+   )
+ }
++
++

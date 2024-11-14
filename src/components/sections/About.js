@@ -120,7 +120,7 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-jquery-plain" />
+                <i className="devicon-php-plain"></i>
               </span>
               <h4>PHP</h4>
             </div>
@@ -128,7 +128,7 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-jquery-plain" />
+                <i className="devicon-html5-plain"></i>
               </span>
               <h4>HTML5</h4>
             </div>
