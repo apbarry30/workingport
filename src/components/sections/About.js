@@ -177,14 +177,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Web Developer</h4>
+                  <h4>Web Designer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2021 - Now</span>
+                    <span>Summer 2019</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>OGK Creative</span>
+                    <span>PG Medi</span>
                   </p>
                 </div>
               </div>
@@ -211,14 +211,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Web Design Intern</h4>
+                  <h4>Web Developer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>Summer 2019</span>
+                    <span>2021 - 2023</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>PG Media</span>
+                    <span>OGK Creative</span>
                   </p>
                 </div>
               </div>
@@ -245,14 +245,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="education">
-                  <h4>Graphic Design Intern</h4>
+                  <h4>Web Developer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2018 - 2019</span>
+                    <span>2023 - Current</span>
                   </p>
                   <p>
                     <i className="fa-solid fa-building-columns" />
-                    <span>Miami Life Alliance</span>
+                    <span>Peak Seven Advertising</span>
                   </p>
                 </div>
               </div>

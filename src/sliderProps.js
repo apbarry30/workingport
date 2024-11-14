@@ -1,13 +1,19 @@
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {
-  Autoplay,
-  EffectCreative,
-  EffectFade,
-  Grid,
-  Mousewheel,
   Navigation,
   Pagination,
+  Mousewheel,
+  Autoplay,
+  Grid,
+  EffectFade,
+  EffectCreative,
   Virtual,
-} from "swiper";
+} from 'swiper';
+
+import 'swiper/swiper-bundle.min.css';
+
+// Install Swiper modules
 SwiperCore.use([
   Mousewheel,
   Pagination,
@@ -23,8 +29,8 @@ export const salimovSlider = {
   portfolio: {
     loop: true,
     navigation: {
-      nextEl: ".next-item",
-      prevEl: ".prev-item",
+      nextEl: '.next-item',
+      prevEl: '.prev-item',
     },
     breakpoints: {
       320: {
@@ -33,11 +39,11 @@ export const salimovSlider = {
         navigation: false,
       },
       768: {
-        slidesPerView: "auto",
+        slidesPerView: 'auto',
         spaceBetween: 0,
       },
       1025: {
-        direction: "vertical",
+        direction: 'vertical',
       },
     },
   },
@@ -58,18 +64,40 @@ export const salimovSlider = {
     spaceBetween: 50,
     grabCursor: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
-      type: "bullets",
+      type: 'bullets',
     },
   },
   portfolioItems: {
     slidesPerView: 1,
     loop: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
-      type: "bullets",
+      type: 'bullets',
     },
   },
 };
+
+const MySwiper = () => {
+  return (
+      <div>
+        <div className="swiper-container">
+          <div className="swiper-wrapper">
+            <Swiper {...salimovSlider.portfolio}>
+              <SwiperSlide>Slide 1</SwiperSlide>
+              <SwiperSlide>Slide 2</SwiperSlide>
+              <SwiperSlide>Slide 3</SwiperSlide>
+              <SwiperSlide>Slide 4</SwiperSlide>
+            </Swiper>
+          </div>
+          <div className="swiper-pagination"></div>
+          <div className="swiper-button-next next-item"></div>
+          <div className="swiper-button-prev prev-item"></div>
+        </div>
+      </div>
+  );
+};
+
+export default MySwiper;

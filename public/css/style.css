@@ -1121,7 +1121,7 @@ header .mobile-menu {
 
 .nav-item {
   position: absolute;
-  right: 150px;
+  right: 100px;
   z-index: 11;
   outline: none !important;
 }
