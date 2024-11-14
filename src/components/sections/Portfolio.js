@@ -67,12 +67,65 @@ const Portfolio = () => {
             </div>
             <a href="https://meijerspecialtypharmacy.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
           {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
+        {/* PORTFOLIO ITEM start */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+                className="img-fluid"
+                src="assets/portfolio/ga-telesis.png"
+                alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Airplane Web GL Project</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Ecosystem Page</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-user" /> Client :
+                  </span>
+                  <span>GA Telesis</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>3 months</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>Three.js</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://gatelesis.com/ecosystem/" target="_blank" className="custom-btn">
+              <span>
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM start */}
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
@@ -116,13 +169,14 @@ const Portfolio = () => {
             </div>
             <a href="https://wearewildlife.net/discovery-map/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
           {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
+        {/* PORTFOLIO ITEM start */}
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
@@ -166,14 +220,14 @@ const Portfolio = () => {
             </div>
             <a href="https://yourchange.app/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
           {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
-
+        {/* PORTFOLIO ITEM start */}
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
@@ -217,7 +271,7 @@ const Portfolio = () => {
             </div>
             <a href="https://bightapp.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -225,12 +279,65 @@ const Portfolio = () => {
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
 
+        {/* PORTFOLIO ITEM start */}
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
             <img
                 className="img-fluid"
-                src="assets/portfolio/asembia.jpg"
+                src="assets/portfolio/shreddies.png"
+                alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Shreddies</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Website</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-user" /> Client :
+                  </span>
+                  <span>Shreddies</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>1 months</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>Shopify</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://www.shreddiesusa.com/" target="_blank" className="custom-btn">
+              <span>
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM start */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+                className="img-fluid"
+                src="assets/portfolio/assembia.png"
                 alt="Image Project"
             />
           </div>
@@ -268,14 +375,14 @@ const Portfolio = () => {
             </div>
             <a href="https://asembia.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
           {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
-
+        {/* PORTFOLIO ITEM start */}
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
@@ -319,14 +426,13 @@ const Portfolio = () => {
             </div>
             <a href="https://urbansolar.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
           {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
-
 
         {/* PORTFOLIO ITEM STARTS */}
         <SwiperSlide className="single-item swiper-slide">
@@ -372,7 +478,7 @@ const Portfolio = () => {
             </div>
             <a href="https://play2pay.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -423,7 +529,7 @@ const Portfolio = () => {
             </div>
             <a href="https://www.drbensoffer.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -474,7 +580,7 @@ const Portfolio = () => {
             </div>
             <a href="https://www.hueit.com" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -525,7 +631,7 @@ const Portfolio = () => {
             </div>
             <a href="https://gulfstreamschool.org/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -576,7 +682,7 @@ const Portfolio = () => {
             </div>
             <a href="https://ardenfl.com/" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -628,7 +734,7 @@ const Portfolio = () => {
             </div>
             <a href="https://allfamous.com" target="_blank" className="custom-btn">
               <span>
-                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+                View <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>
             </a>
           </div>
@@ -683,7 +789,7 @@ const Portfolio = () => {
         {/*    </div>*/}
         {/*    <a href="#" target="_blank" className="custom-btn">*/}
         {/*      <span>*/}
-        {/*        preview <i className="fa-solid fa-arrow-up-right-from-square" />*/}
+        {/*        View <i className="fa-solid fa-arrow-up-right-from-square" />*/}
         {/*      </span>*/}
         {/*    </a>*/}
         {/*  </div>*/}
@@ -744,7 +850,7 @@ const Portfolio = () => {
         {/*    </div>*/}
         {/*    <a href="#" target="_blank" className="custom-btn">*/}
         {/*      <span>*/}
-        {/*        preview <i className="fa-solid fa-arrow-up-right-from-square" />*/}
+        {/*        View <i className="fa-solid fa-arrow-up-right-from-square" />*/}
         {/*      </span>*/}
         {/*    </a>*/}
         {/*  </div>*/}
@@ -801,7 +907,7 @@ const Portfolio = () => {
           {/*  </div>*/}
           {/*  <a href="#" target="_blank" className="custom-btn">*/}
           {/*    <span>*/}
-          {/*      preview <i className="fa-solid fa-arrow-up-right-from-square" />*/}
+          {/*      View <i className="fa-solid fa-arrow-up-right-from-square" />*/}
           {/*    </span>*/}
           {/*  </a>*/}
           {/*</div>*/}

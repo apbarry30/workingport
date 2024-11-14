@@ -7,7 +7,8 @@ const Copyright = () => {
         src="assets/separator-copyright.png"
       />
       <div>
-        <span>© {new Date().getFullYear()} Amanda Barry</span>
+        <span>© {new Date().getFullYear()}</span>
+        <span>Amanda Barry</span>
         <span>
           {" "}
           <a

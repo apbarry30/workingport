@@ -1057,6 +1057,9 @@ header .mobile-menu {
 .portfolio .single-item .details ul li {
   line-height: 50px;
 }
+.portfolio .single-item .details ul li:last-of-type{
+  display:none;
+}
 
 .portfolio .single-item .details ul li i {
   margin-right: 10px;
@@ -1560,15 +1563,16 @@ header .mobile-menu {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 0 50px 0 0;
+  padding: 0;
   text-align: center;
   min-width: 250px;
   font-weight: 500;
 }
 
 .copyright > img {
-  transform: translateX(calc(-100% + 1px));
+  transform: translateX(calc(0 + 1px));
   height: 100vh;
+  display:none;
 }
 
 .copyright span {
@@ -2202,6 +2206,7 @@ header .mobile-menu {
     width: 538px;
     white-space: initial;
   }
+
 
   .clients {
     padding: 130px 30px 110px;
